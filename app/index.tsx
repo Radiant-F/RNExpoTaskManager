@@ -30,6 +30,8 @@ export default function Splash() {
     }
   }, [fontLoaded]);
 
+  // this comment should trigger the build
+
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       <ActivityIndicator size={"large"} />
