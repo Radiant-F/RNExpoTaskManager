@@ -29,7 +29,7 @@ export default {
   expo: {
     name: getAppName(),
     slug: "TaskManager",
-    version: "1.0.0",
+    version: "1.1.0-stable",
     orientation: "portrait",
     icon: "./assets/images/icon.png",
     scheme: "myapp",
@@ -75,5 +75,11 @@ export default {
       },
     },
     owner: "exkoi.dev",
+    updates: {
+      url: "https://u.expo.dev/fe2982f0-e3d7-4127-a203-bff07f825f65",
+    },
+    runtimeVersion: {
+      policy: "appVersion",
+    },
   },
 };
