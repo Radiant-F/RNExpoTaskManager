@@ -30,7 +30,7 @@ export default function Splash() {
     }
   }, [fontLoaded]);
 
-  // this comment should trigger the build
+  // this comment should trigger the build again
 
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
